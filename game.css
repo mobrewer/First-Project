@@ -1,4 +1,4 @@
-body {
+h1 {
     color: white;
 }
 
@@ -21,12 +21,14 @@ body {
 .choice-prefix {
     padding: 2rem 2.5rem;
     color: white;
+    font-size: 2rem;
 }
 
 .choice-text {
     padding: 2rem;
     width: 100%;
     color: white;
+    font-size: 2rem;
 }
 
 .correct {
@@ -46,6 +48,7 @@ body {
 .hud-prefix {
     text-align: center;
     font-size: 2rem;
+    color: white;
 }
 
 .hud-main-text {
@@ -53,6 +56,20 @@ body {
     color: white;
 }
 
+#progressBar {
+    width: 20rem;
+    height: 3rem;
+    border: 0.2rem solid rgb(11, 223, 36);
+    margin-top: 2rem;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+#progressBarFull {
+    height: 100%;
+    background: rgb(11, 223, 36);
+    width: 0%;
+}
 @media screen and (max-width) {
    .choice-container {
         min-width: 40rem;

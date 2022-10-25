@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: #071330;
 }
 
 * {
@@ -8,12 +8,12 @@ body {
     margin: 0;
     padding: 0;
     font-size: 62.5%;
-    color: black;
+    color: #C3CEDA;
 }
 
 h1 {
    font-size: 5.4rem;
-   color: aqua;
+   color: #C3CEDA;
    margin-bottom: 5rem;
 } 
 
