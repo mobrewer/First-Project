@@ -37,10 +37,10 @@ let questions = [
     },
     {
         question: 'How do elephants greet each other?',
-        choice1: 'By flapping their ears',
+        choice1: 'By flapping their ears at each other',
         choice2: 'By stomping the ground',
-        choice3: 'By bowing heads',
-        choice4: 'By hugging their trunks',
+        choice3: 'By bowing heads at one another',
+        choice4: 'By hugging each others trunks',
         answer: 4,
     },
 ]
@@ -58,7 +58,7 @@ startGame = () => {
 getNewQuestion = () => {
     if(availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score)
-        return window.location.assign('/end.html')
+        return window.location.assign('./end.html')
     }
     questionCounter++
     progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`
