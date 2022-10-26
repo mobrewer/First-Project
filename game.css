@@ -1,5 +1,5 @@
 h1 {
-    color: white;
+    color: #C3CEDA;
 }
 
 .choice-container {
@@ -7,27 +7,27 @@ h1 {
     margin-bottom: 0.8rem;
     width: 100%;
     border-radius: 4px;
-    background: rgb(18, 93, 255);
+    background: #738FA7;
     min-width: 80rem;
 }
 
 .choice-container:hover {
     cursor: pointer;
-    box-shadow: 0 0.4 1.4rem 0 rgba(6, 103, 247, 0.5);
+    /* box-shadow: 0 0.4 1.4rem 0 rgba(6, 103, 247, 0.5); */
     transform: scale(1.02);
     transform: 100ms;
 }
 
 .choice-prefix {
     padding: 2rem 2.5rem;
-    color: white;
+    color: #C3CEDA;
     font-size: 2rem;
 }
 
 .choice-text {
     padding: 2rem;
     width: 100%;
-    color: white;
+    color: #C3CEDA;
     font-size: 2rem;
 }
 
@@ -48,18 +48,18 @@ h1 {
 .hud-prefix {
     text-align: center;
     font-size: 2rem;
-    color: white;
+    color: #C3CEDA;
 }
 
 .hud-main-text {
     text-align: center;
-    color: white;
+    color: #C3CEDA;
 }
 
 #progressBar {
     width: 20rem;
     height: 3rem;
-    border: 0.2rem solid rgb(11, 223, 36);
+    border: 0.2rem solid rgb(115, 143, 167);
     margin-top: 2rem;
     border-radius: 50px;
     overflow: hidden;
@@ -67,7 +67,7 @@ h1 {
 
 #progressBarFull {
     height: 100%;
-    background: rgb(11, 223, 36);
+    background: rgb(12, 65, 96);
     width: 0%;
 }
 @media screen and (max-width) {
