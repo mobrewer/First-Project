@@ -1,8 +1,8 @@
-const question = document.querySelector('#question');
-const progressText = document.querySelector('#progressText');
-const scoreText = document.querySelector('#score');
-const progressBarFull = document.querySelector('#progressBarFull');
-const choices = Array.from(document.querySelectorAll('.choice-text'));
+const question = document.querySelector('#question')
+const progressText = document.querySelector('#progressText')
+const scoreText = document.querySelector('#score')
+const progressBarFull = document.querySelector('#progressBarFull')
+const choices = Array.from(document.querySelectorAll('.choice-text'))
 
 let currentQuestion = {}
 let acceptingAnswers = true
@@ -43,10 +43,42 @@ let questions = [
         choice4: 'By hugging each others trunks',
         answer: 4,
     },
+    {
+        question: 'What is the main difference between an African elephant and an indian elephant?',
+        choice1: 'Indian elephants have smaller ears',
+        choice2: 'African elephants have longer tails',
+        choice3: 'African elephants speak Swahili',
+        choice4: 'Indian elephants have bigger tusks',
+        answer: 1,
+    },
+    {
+        question: 'What is a baby elephant called?',
+        choice1: 'A pup',
+        choice2: 'A heffalump',
+        choice3: 'A calf',
+        choice4: 'David',
+        answer: 3,
+    },
+    {
+        question: 'Why are elephants endangered?',
+        choice1: 'Habit destruction',
+        choice2: 'Exploitation of elephants in zoos and amusement parks',
+        choice3: 'People hunt them for their tusks',
+        choice4: 'All of the above',
+        answer: 4,
+    },
+    {
+        question: 'How do elephants communicate?',
+        choice1: 'Through vibrations in the ground',
+        choice2: 'Signaling with their feet',
+        choice3: 'By flapping their ears',
+        choice4: 'By trumpeting (sound made by pushing air through the trunk)',
+        answer: 1,
+    },
 ]
 
 const SCORE_POINTS = 100
-const MAX_QUESTIONS = 4
+const MAX_QUESTIONS = 8
 
 startGame = () => {
     questionCounter = 0
