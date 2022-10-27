@@ -33,6 +33,5 @@ https://mobrewer.github.io/First-Project/
 
 ## Future Enhancements:
 * Add a timer so it is a timed trivia game
-* Add more questions
 * Add animations to make the game stand out
 * Make it multiplayer so people can play against each other and compare scores
