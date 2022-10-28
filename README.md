@@ -35,7 +35,7 @@ https://mobrewer.github.io/First-Project/
 * Styling wasn't working for me for the majority of the first day, because my div wasn't set up correctly
 * My html pages weren't linking in my Javascript correctly, but got assistance and we got that code corretcted
 * I kept getting an error code in my game.js, but was able to get that resolved
-* Adding my Favicon took me longer than I thought it would, I had to move files around and then type the code in differently a couple of times. But it worked eventually and know I know how to add a Favicon!
+* Adding my Favicon took me longer than I thought it would, I had to move files around and then type the code in differently a couple of times. But it worked eventually and know I know how to add a Favicon! 
 
 ## Future Enhancements:
 * Add a timer so it is a timed trivia game
